@@ -3,6 +3,8 @@ var router = express.Router();
 var asyncHandler = require(__path_middleware + "async");
 var ErrorResponse = require(__path_utils + "ErrorResponse");
 var { protect, authorize } = require(__path_middleware + "auth");
+var uploadCloud = require("../middleware/uploader");
+const cloudinary = require("cloudinary").v2;
 
 const controllerName = "product";
 const MainModel = require(__path_models + controllerName);
@@ -39,11 +41,20 @@ router.post(
   "/add",
   protect,
   authorize("publisher", "admin"),
+  uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
-    let err = await validateReq(req, res, next);
+    const fileData = req.file;
 
-    if (!err) {
-      const data = await MainModel.create(req.body);
+    let err = await validateReq(req, res, next);
+    if (err) {
+      if (fileData) {
+        cloudinary.uploader.destroy(fileData.filename);
+      }
+    } else if (!err) {
+      const data = await MainModel.create({
+        ...req.body,
+        image: fileData.path,
+      });
       res.status(201).json({
         success: true,
         data: data,
@@ -56,11 +67,25 @@ router.put(
   "/edit/:id",
   protect,
   authorize("publisher", "admin"),
+  uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
+    const fileData = req.file;
+
     let err = await validateReq(req, res, next);
-    if (!err) {
+
+    if (err) {
+      if (fileData) {
+        cloudinary.uploader.destroy(fileData.filename);
+      }
+    } else if (!err) {
       const data = await MainModel.editItem(
-        { id: req.params.id, body: req.body },
+        {
+          id: req.params.id,
+          body: {
+            ...req.body,
+            image: fileData.path,
+          },
+        },
         { task: "edit" }
       );
       res.status(200).json({

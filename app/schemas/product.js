@@ -21,6 +21,7 @@ var schema = new mongoose.Schema({
   brand: String,
   size: [String],
   color: [String],
+  image: String,
 });
 
 module.exports = mongoose.model(databaseConfig.col_product, schema);

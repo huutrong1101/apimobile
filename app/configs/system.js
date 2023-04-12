@@ -10,4 +10,8 @@ module.exports = {
   SMTP_PASS: "2d211cfe396b42",
   FORM_EMAIL: "admin@mail.com",
   FORM_NAME: "Restaurant",
+
+  CLOUDINARY_NAME: "dxkosumln",
+  CLOUDINARY_KEY: "936394382227839",
+  CLOUDINARY_SECRET: "nG6SP36LbyRl9irLsG0uVLdjj-I",
 };
