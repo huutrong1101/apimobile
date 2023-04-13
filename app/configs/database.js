@@ -5,4 +5,6 @@ module.exports = {
   col_product: "products",
   col_category: "category",
   col_user: "user",
+  col_order: "Order",
+  col_cart: "cart",
 };

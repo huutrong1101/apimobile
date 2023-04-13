@@ -1,291 +1,306 @@
 [
   {
-    "_id": "5d713995b721c3bb38c1f5d0",
-    "name": "Adidas Pro-Vip 2021",
-    "color": ["red", "blue"],
-    "price": 1300000,
-    "price_old": 1500000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "_id": "6437a0b68d505521284eabe4",
+    "size": ["s", "m"],
+    "color": ["xám", "xanh"],
+    "category": {
+      "id": "64379e3b8d505521284eabd7",
+      "name": "Giày Adidas"
+    },
+    "name": "Giày Nike Air Max AP",
+    "price": 182000,
+    "price_old": 192000,
+    "description": "Chưa có một đôi giày thể thao nào đóng vai trò quan trọng trong thành công của Nike như Air Max 1 . Đối với Nike, Air Max đã đi vào lịch sử như một thiết kế quan trọng và sáng tạo giúp nâng tầm thương hiệu của hãng.",
     "like": 30,
-    "category": {
-      "id": "5d113995b721c3bb38a1f511",
-      "name": "giầy nam"
-    },
-    "category_id": "5d113995b721c3bb38a1f511",
+    "category_id": "64379e3b8d505521284eabd7",
     "special": true,
     "brand": "adidas",
-    "size": ["s", "m"]
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367382/learn_nodejs/bck3tq1vgn6ozyohtl4v.jpg"
   },
   {
-    "_id": "5d713995b721c3bb38c1f5d1",
-    "name": "Adidas Sen 2021",
-    "color": ["red", "blue", "yellow"],
-    "price": 1200000,
-    "price_old": 1500000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 20,
+    "_id": "6437a1ef8d505521284eabe8",
+    "size": ["s", "m"],
+    "color": ["xám", "xanh"],
     "category": {
-      "id": "5d113995b721c3bb38a1f511",
-      "name": "giầy nam"
+      "id": "64379e3b8d505521284eabd7",
+      "name": "Giày Adidas"
     },
-    "category_id": "5d113995b721c3bb38a1f511",
+    "name": "Adidas Ultraboost 4.0",
+    "price": 185000,
+    "price_old": 195000,
+    "description": "Được ra mắt vào năm 2015 và ngay lập tức đã tạo một tiếng vang cực lớn cho Adidas, phải nói đây là mẫu giày hiếm hoi kể từ khi vừa ra mắt đã được sự đón nhận đông đảo của tất cả mọi người đam mê nền văn hóa sát mặt đất.",
+    "like": 30,
+    "category_id": "64379e3b8d505521284eabd7",
     "special": true,
     "brand": "adidas",
-    "size": ["s", "m", "l"]
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367696/learn_nodejs/hxorjvtkgnbp2ur0nloq.jpg"
   },
   {
-    "_id": "5d713995b721c3bb38c1f5d3",
-    "name": "Adidas shoes",
-    "color": ["red"],
-    "price": 1700000,
-    "price_old": 1900000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 0,
+    "_id": "6437a2d78d505521284eabeb",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
     "category": {
-      "id": "5d113995b721c3bb38a1f511",
-      "name": "giầy nam"
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
     },
-    "category_id": "5d113995b721c3bb38a1f511",
-    "special": false,
-    "brand": "adidas",
-    "size": ["s"]
+    "name": "Giày Nike Air Max SC Nam",
+    "price": 190000,
+    "price_old": 200000,
+    "description": "Giày Nike Air Max SC mang nét huyền thoại của Nike, với bộ đệm Air Max trứ danh đây là mẫu giày có thể kết hợp với bất cứ trang phục nào mà bạn vẫn hoàn toàn tự tin trong mọi hoàn cảnh.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367927/learn_nodejs/dpwppcdhnu6trpnhrjel.jpg"
   },
   {
-    "_id": "5d713995b721c3bb38c1f5e1",
-    "name": "Adidas 2021",
-    "color": ["red", "yellow"],
-    "price": 1300000,
+    "_id": "6437a3658d505521284eabee",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Court Royale 2",
+    "price": 490000,
+    "price_old": 500000,
+    "description": "Giày lifestyle nam Nike Court royale 2 Nn DH3160-001 sử dụng kiểu dáng truyền thống kết hợp cùng logo Nike cổ điển sẽ mang đến cho bạn sự đơn giản nhưng vẫn toát lên vẻ thanh lịch, trưởng thành, khiến bạn trở nên tự tin vào bản thân hơn, dễ dàng thu hút ánh nhìn từ mọi người.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368070/learn_nodejs/tp5e62r57q4fjqrqf8j9.jpg"
+  },
+  {
+    "_id": "6437a3d38d505521284eabf1",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Air Max AP",
+    "price": 690000,
+    "price_old": 700000,
+    "description": "Giày lifestyle nam Nike Court royale 2 Nn DH3160-001 sử dụng kiểu dáng truyền thống kết hợp cùng logo Nike cổ điển sẽ mang đến cho bạn sự đơn giản nhưng vẫn toát lên vẻ thanh lịch, trưởng thành, khiến bạn trở nên tự tin vào bản thân hơn, dễ dàng thu hút ánh nhìn từ mọi người.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368179/learn_nodejs/dyj1aprm20jzqwifw5cg.jpg"
+  },
+  {
+    "_id": "6437a45b8d505521284eabf4",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Renew Retaliation TR 3 ",
+    "price": 890000,
+    "price_old": 900000,
+    "description": "Giày Nike Renew Retaliation TR 3 một mẫu giày training không thể bỏ qua, với thiết kế phù hợp nhất cho việc luyện tập thể thao, tập gym...Phần đế giày với công nghệ React cực kỳ êm và nhẹ giúp cho các vận động linh hoạt và nhẹ nhàng hơn rất nhiều. Phần upper với sợi dệt vô cùng thoáng khí và cấu trúc dây buộc chắc chắn cố định giúp giảm tối đa các chấn thương trong quá trình luyện tập.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368316/learn_nodejs/eoeoou39wbox4ez3mpql.jpg"
+  },
+  {
+    "_id": "6437a4f18d505521284eabf9",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Air Zoom Structure 24",
+    "price": 390000,
+    "price_old": 400000,
+    "description": "Ở phiên bản này được các chuyên gia đánh giá cao phần bởi sự ổn định nhưng vẫn có cảm giác êm chân trong suốt quá trình sử dụng. Bạn yêu thích thể thao và đang tìm kiếm cho mình một đôi giày để tập luyện thì Nike Air Zoom Structure 24 sẽ là một lựa chọn hoàn toàn chính xác. Bởi một đôi giày tốt sẽ là một người đồng hành quan trọng trong cả 1 quá trình.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368465/learn_nodejs/wcacjdbemrfjpt2lwveg.jpg"
+  },
+  {
+    "_id": "6437a5be8d505521284eabfc",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Court Royale 2",
+    "price": 490000,
+    "price_old": 500000,
+    "description": "Kiểu dáng giày Nike Court Royale 2 DH3160-101 truyền thống cùng tông màu trắng giúp bạn dễ dàng phối cùng nhiều trang phục khác nhau, mang đến nhiều phong cách mới mẻ và độc đáo",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368670/learn_nodejs/hvyddrrezguqtq7pfbrd.jpg"
+  },
+  {
+    "_id": "6437a64f8d505521284eabff",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e7a8d505521284eabda",
+      "name": "Giày Nike"
+    },
+    "name": "Giày Nike Revolution 5",
+    "price": 590000,
+    "price_old": 600000,
+    "description": "Series mẫu giày nam Nike chạy bộ Nike Revolution 5 BQ3204 với đệm chân bằng bọt mềm giúp cho sải chân của bạn nhẹ nhàng, thanh thoát, uyển chuyển ngoài ra còn hấp thụ lực tác động lên chân của bạn và cho phép bạn tiếp tục chạy một cách thoải mái.",
+    "like": 30,
+    "category_id": "64379e7a8d505521284eabda",
+    "special": true,
+    "brand": "nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368815/learn_nodejs/lkap9yeewyer3shoetmy.jpg"
+  },
+  {
+    "_id": "6437a7d28d505521284eac02",
+    "size": ["s", "m"],
+    "color": ["xanh", "trắng"],
+    "category": {
+      "id": "64379e908d505521284eabdd",
+      "name": "Giày Bitis"
+    },
+    "name": "Giày Bóng Đá Nam Bitis Hunter Football",
+    "price": 535000,
+    "price_old": 600000,
+    "description": "Giày Bóng Đá Nam Biti's Hunter Football DSMH03800 được ứng dụng với nền tảng công nghệ TrueFit – X, sản phẩm giày đá banh từ Biti’s Hunter với cam kết đem lại trải nghiệm vừa vặn nhất với đôi chân.",
+    "like": 30,
+    "category_id": "64379e908d505521284eabdd",
+    "special": true,
+    "brand": "bitis",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369201/learn_nodejs/isfb3np8rumiwizvkqmn.webp"
+  },
+  {
+    "_id": "6437a88b8d505521284eac05",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e908d505521284eabdd",
+      "name": "Giày Bitis"
+    },
+    "name": "Hunter Layered Upper",
+    "price": 800000,
+    "price_old": 850000,
+    "description": "Cải tiến thiết kế độc đáo với xu hướng #layer từ những “đường cắt” chất liệu đan xen, lần đầu tiên có mặt tại gia đình Thợ Săn. Sở hữu công nghệ vượt trội chuẩn Hunter X, sẵn sàng cùng bạn khuấy động mùa hè sôi động.",
+    "like": 30,
+    "category_id": "64379e908d505521284eabdd",
+    "special": true,
+    "brand": "bitis",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369388/learn_nodejs/ixyqlkqudfkp0x4t2tap.webp"
+  },
+  {
+    "_id": "6437a93a8d505521284eac08",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379e908d505521284eabdd",
+      "name": "Giày Bitis"
+    },
+    "name": "Giày Thể Thao Nam Biti's Hunter Street",
+    "price": 737100,
+    "price_old": 819000,
+    "description": "Giày Thể Thao Nam Biti's Hunter Street Mid DSMH03600 thiết kế cổ cao với chất liệu chuyên biệt tăng thêm nét thời trang cá tính cho đôi chân bạn.Xu hướng dòng giày cổ cao, giúp bảo vệ cổ chân tốt hơn.",
+    "like": 30,
+    "category_id": "64379e908d505521284eabdd",
+    "special": true,
+    "brand": "bitis",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369562/learn_nodejs/c2vemtdr1dtbyitnboh9.webp"
+  },
+  {
+    "_id": "6437a9db8d505521284eac0b",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
+    "category": {
+      "id": "64379ead8d505521284eabe0",
+      "name": "Giày Converse"
+    },
+    "name": "Giày Vans Authen DX BW",
+    "price": 950000,
     "price_old": 1600000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f511",
-      "name": "giầy nam"
-    },
-    "category_id": "5d113995b721c3bb38a1f511",
-    "special": false,
-    "brand": "adidas",
-    "size": ["s", "m"]
-  },
-  {
-    "_id": "5d713995b721c3bb38c1f1d0",
-    "name": "Adidas Pro-Vip 21",
-    "color": ["red", "blue"],
-    "price": 1350000,
-    "price_old": 1550000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "description": "Vans Authentic chính thức được cho ra mắt vào năm 1966 tại California và nằm trong bộ 5 huyền thoại của nhà Vans. Nếu bạn quá ngại thắt nhiều dây như oldskool, cũng không thích dáng slipon, mà chỉ thích thấp cổ thì hãy chọn authentic.",
     "like": 30,
-    "category": {
-      "id": "5d113995b721c3bb38a1f511",
-      "name": "giầy nam"
-    },
-    "category_id": "5d113995b721c3bb38a1f511",
-    "special": false,
-    "brand": "adidas",
-    "size": ["l"]
-  },
-  {
-    "_id": "5d713992b721c3bb38c1f5d0",
-    "name": "Converse 1",
-    "color": ["yellow", "blue"],
-    "price": 1300000,
-    "price_old": 1500000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 20,
-    "category": {
-      "id": "5d113995b721c3bb38a1f512",
-      "name": "giầy nữ"
-    },
-    "category_id": "5d113995b721c3bb38a1f512",
-    "special": false,
-    "brand": "Converse",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d711995b721c3bb38c1f1d0",
-    "name": "converse ABC",
-    "color": ["red", "blue"],
-    "price": 1250000,
-    "price_old": 1550000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f512",
-      "name": "giầy nữ"
-    },
-    "category_id": "5d113995b721c3bb38a1f512",
+    "category_id": "64379ead8d505521284eabe0",
     "special": true,
     "brand": "converse",
-    "size": ["l"]
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369723/learn_nodejs/czn2x78pyztbow48lx0k.jpg"
   },
   {
-    "_id": "5d113995b721c3bb38c1f5d0",
-    "name": "Converse 2a2",
-    "color": ["green", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 40,
+    "_id": "6437aa568d505521284eac0e",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
     "category": {
-      "id": "5d113995b721c3bb38a1f512",
-      "name": "giầy nữ"
+      "id": "64379ead8d505521284eabe0",
+      "name": "Giày Converse"
     },
-    "category_id": "5d113995b721c3bb38a1f512",
-    "special": false,
-    "brand": "Converse",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113995b121c3bb38c1f5d0",
-    "name": "Converse 2a1",
-    "color": ["red", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f512",
-      "name": "giầy nữ"
-    },
-    "category_id": "5d113995b721c3bb38a1f512",
-    "special": false,
-    "brand": "Converse",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113965b721c3bb38c1f5d0",
-    "name": "Nike 2a2",
-    "color": ["green", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 40,
-    "category": {
-      "id": "5d113995b721c3bb38a1f513",
-      "name": "giầy thể thao"
-    },
-    "category_id": "5d113995b721c3bb38a1f513",
-    "special": false,
-    "brand": "Nike",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113195b721c3bb38c1f5d0",
-    "name": "Nike 2a2012",
-    "color": ["red", "yellow"],
-    "price": 1120000,
-    "price_old": 1210000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f513",
-      "name": "giầy thể thao"
-    },
-    "category_id": "5d113995b721c3bb38a1f513",
-    "special": true,
-    "brand": "Nike",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d123995b721c3bb38c1f5d0",
-    "name": "Nike 2aa12",
-    "color": ["black", "blue"],
-    "price": 1200000,
-    "price_old": 4500000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f513",
-      "name": "giầy thể thao"
-    },
-    "category_id": "5d113995b721c3bb38a1f513",
-    "special": false,
-    "brand": "Nike",
-    "size": ["m", "l"]
-  },
-  {
-    "_id": "5d113905b721c3bb38c1f5d0",
-    "name": "Nike 2123a2",
-    "color": ["green", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 40,
-    "category": {
-      "id": "5d113995b721c3bb38a1f513",
-      "name": "giầy thể thao"
-    },
-    "category_id": "5d113995b721c3bb38a1f513",
-    "special": true,
-    "brand": "Nike",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113995b721c3bb38c1a5d0",
-    "name": "Vans 2a2",
-    "color": ["green", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 40,
-    "category": {
-      "id": "5d113995b721c3bb38a1f514",
-      "name": "giầy thời trang"
-    },
-    "category_id": "5d113995b721c3bb38a1f514",
-    "special": false,
-    "brand": "Vans",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113995b721c1bb38c1f5d0",
-    "name": "Vans 21a21",
-    "color": ["black", "blue"],
-    "price": 1100000,
-    "price_old": 1200000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 10,
-    "category": {
-      "id": "5d113995b721c3bb38a1f514",
-      "name": "giầy thời trang"
-    },
-    "category_id": "5d113995b721c3bb38a1f514",
-    "special": false,
-    "brand": "Vans",
-    "size": ["m", "l"]
-  },
-  {
-    "_id": "5d113995b721c3bb37c1f5d0",
-    "name": "Vans new",
-    "color": ["green", "blue"],
-    "price": 1120000,
-    "price_old": 1220000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
-    "like": 15,
-    "category": {
-      "id": "5d113995b721c3bb38a1f514",
-      "name": "giầy thời trang"
-    },
-    "category_id": "5d113995b721c3bb38a1f514",
-    "special": true,
-    "brand": "Vans",
-    "size": ["s", "m", "l"]
-  },
-  {
-    "_id": "5d113995b721c3bb38a1f5d0",
-    "name": "Vans oldschool",
-    "color": ["yellow", "blue"],
-    "price": 1200000,
-    "price_old": 1400000,
-    "description": "Lấy tín hiệu từ một trong những màu LeBron 4 được thèm muốn nhất, LeBron 17 'Graf ﬁ ti' vượt qua ranh giới của cả quá khứ và hiện tại bằng cách kết hợp các yếu tố từ cả hai đôi giày đặc trưng.Công nghệ tích hợp của LeBron 17 — được bao phủ bởi sự giải thích theo phong cách tự do về các giá trị cá nhân của LeBron trong phong cách graf dễ nhận biết của LeBron 4 — lấy cảm hứng từ nhịp điệu, nghệ thuật và văn hóa của đường phố Thành phố New York, với chữ lấy cảm hứng từ hình tượng của Quả táo lớn.",
+    "name": "Giày Converse Run Star Hike",
+    "price": 1500000,
+    "price_old": 1900000,
+    "description": "Đôi giày Run Star Hike với kiểu dáng Chunky thời thượng cùng phong cách độc đáo, mang lại cho bạn vẻ ngoài thu hút ánh nhìn. Đế giày dày dặn cho bạn thỏa sức hack chiều cao và thêm tự tin xuống phố. Màu đen trắng tinh tế không kém phần thanh lịch sẽ phối hợp rất tốt với nhiều kiểu outfit hàng ngày. Chất vải Canvas dày dặn với những thớ dệt bền bỉ được gia công tỉ mỉ giúp bạn yên tâm hơn trong mọi hoạt động.",
     "like": 30,
+    "category_id": "64379ead8d505521284eabe0",
+    "special": true,
+    "brand": "converse",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369846/learn_nodejs/hxepngx1b9qhciv9ptua.jpg"
+  },
+  {
+    "_id": "6437aadd8d505521284eac11",
+    "size": ["s", "m"],
+    "color": ["đen", "trắng"],
     "category": {
-      "id": "5d113995b721c3bb38a1f514",
-      "name": "giầy thời trang"
+      "id": "64379e3b8d505521284eabd7",
+      "name": "Giày Adidas"
     },
-    "category_id": "5d113995b721c3bb38a1f514",
-    "special": false,
-    "brand": "Vans",
-    "size": ["s", "m", "l"]
+    "name": "Giaỳ Adidas Solarglide",
+    "price": 1200000,
+    "price_old": 1500000,
+    "description": "Giày adidas Solarglide 5 là mẫu giày thể thao đa dụng thường ngày với khả năng hoàn trả năng lượng tuyệt vời. Thiết kế đẹp đầy năng động giúp cho adidas Solarglide 5 chiếm được cảm tình của bất cứ ai khi nhìn thấy nó.",
+    "like": 30,
+    "category_id": "64379e3b8d505521284eabd7",
+    "special": true,
+    "brand": "adidas",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369981/learn_nodejs/ke72cavjxdvaeoa1pk96.jpg"
+  },
+  {
+    "_id": "6437ab6a8d505521284eac14",
+    "size": ["s", "m"],
+    "color": ["đen", "tím"],
+    "category": {
+      "id": "64379e3b8d505521284eabd7",
+      "name": "Giày Adidas"
+    },
+    "name": "Giày Adidas Galaxy 6",
+    "price": 900000,
+    "price_old": 1200000,
+    "description": "Giày adidas Galaxy 6  có thiết kế thể thao đẹp mắt, đây là mẫu giày có thể sử dụng trong mọi hoạt động hàng ngày. adidas Galaxy 6 có nhiều cải tiến so với adidas Galaxy 5 giúp đôi giày ngày càng hoàn hảo.",
+    "like": 30,
+    "category_id": "64379e3b8d505521284eabd7",
+    "special": true,
+    "brand": "adidas",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681370122/learn_nodejs/wu3zbptydkmnimuo7ynd.jpg"
   }
 ]

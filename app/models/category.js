@@ -3,6 +3,9 @@ const { ObjectId } = require("bson");
 const MainModel = require(__path_schemas + "category");
 const ProductModel = require(__path_schemas + "product");
 
+const cloudinary = require("cloudinary").v2;
+const { extractPublicId } = require("cloudinary-build-url");
+
 module.exports = {
   listItems: (params, option) => {
     let id = params.id ? params.id : "";
@@ -67,8 +70,16 @@ module.exports = {
   create: (item) => {
     return new MainModel(item).save();
   },
-  deleteItem: (params, option) => {
+  deleteItem: async (params, option) => {
     if (option.task == "one") {
+      const product = await MainModel.findById(params.id);
+      const imageProduct = product.image;
+
+      if (imageProduct) {
+        const publicId = extractPublicId(imageProduct);
+        cloudinary.uploader.destroy(publicId);
+      }
+
       return MainModel.deleteOne({ _id: params.id });
     }
   },

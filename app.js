@@ -48,7 +48,10 @@ var errorHandler = require(__path_middleware + "error");
 app.locals.systemConfig = systemConfig;
 
 mongoose
-  .connect("mongodb+srv://huutrong1101:123@cluster0.zmhvy1t.mongodb.net/test")
+  .connect("mongodb+srv://huutrong1101:123@cluster0.zmhvy1t.mongodb.net/test", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
   .then(() => {
     console.log("Database connected".magenta);
   })
