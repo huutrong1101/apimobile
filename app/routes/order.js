@@ -50,7 +50,7 @@ router.post(
 router.put(
   "/edit/:id",
   protect,
-  authorize("publisher", "admin"),
+  authorize("shop", "admin"),
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.updateItem({
       id: req.params.id,

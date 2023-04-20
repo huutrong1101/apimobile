@@ -16,7 +16,8 @@
     "special": true,
     "brand": "adidas",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367382/learn_nodejs/bck3tq1vgn6ozyohtl4v.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367382/learn_nodejs/bck3tq1vgn6ozyohtl4v.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a1ef8d505521284eabe8",
@@ -35,7 +36,8 @@
     "special": true,
     "brand": "adidas",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367696/learn_nodejs/hxorjvtkgnbp2ur0nloq.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367696/learn_nodejs/hxorjvtkgnbp2ur0nloq.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a2d78d505521284eabeb",
@@ -54,7 +56,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367927/learn_nodejs/dpwppcdhnu6trpnhrjel.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681367927/learn_nodejs/dpwppcdhnu6trpnhrjel.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a3658d505521284eabee",
@@ -73,7 +76,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368070/learn_nodejs/tp5e62r57q4fjqrqf8j9.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368070/learn_nodejs/tp5e62r57q4fjqrqf8j9.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a3d38d505521284eabf1",
@@ -92,7 +96,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368179/learn_nodejs/dyj1aprm20jzqwifw5cg.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368179/learn_nodejs/dyj1aprm20jzqwifw5cg.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a45b8d505521284eabf4",
@@ -111,7 +116,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368316/learn_nodejs/eoeoou39wbox4ez3mpql.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368316/learn_nodejs/eoeoou39wbox4ez3mpql.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a4f18d505521284eabf9",
@@ -130,7 +136,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368465/learn_nodejs/wcacjdbemrfjpt2lwveg.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368465/learn_nodejs/wcacjdbemrfjpt2lwveg.jpg",
+    "shopId": "6440c328b035410d141f3eab"
   },
   {
     "_id": "6437a5be8d505521284eabfc",
@@ -149,7 +156,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368670/learn_nodejs/hvyddrrezguqtq7pfbrd.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368670/learn_nodejs/hvyddrrezguqtq7pfbrd.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437a64f8d505521284eabff",
@@ -168,7 +176,8 @@
     "special": true,
     "brand": "nike",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368815/learn_nodejs/lkap9yeewyer3shoetmy.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681368815/learn_nodejs/lkap9yeewyer3shoetmy.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437a7d28d505521284eac02",
@@ -187,7 +196,8 @@
     "special": true,
     "brand": "bitis",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369201/learn_nodejs/isfb3np8rumiwizvkqmn.webp"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369201/learn_nodejs/isfb3np8rumiwizvkqmn.webp",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437a88b8d505521284eac05",
@@ -206,7 +216,8 @@
     "special": true,
     "brand": "bitis",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369388/learn_nodejs/ixyqlkqudfkp0x4t2tap.webp"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369388/learn_nodejs/ixyqlkqudfkp0x4t2tap.webp",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437a93a8d505521284eac08",
@@ -225,7 +236,8 @@
     "special": true,
     "brand": "bitis",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369562/learn_nodejs/c2vemtdr1dtbyitnboh9.webp"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369562/learn_nodejs/c2vemtdr1dtbyitnboh9.webp",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437a9db8d505521284eac0b",
@@ -244,7 +256,8 @@
     "special": true,
     "brand": "converse",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369723/learn_nodejs/czn2x78pyztbow48lx0k.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369723/learn_nodejs/czn2x78pyztbow48lx0k.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437aa568d505521284eac0e",
@@ -263,7 +276,8 @@
     "special": true,
     "brand": "converse",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369846/learn_nodejs/hxepngx1b9qhciv9ptua.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369846/learn_nodejs/hxepngx1b9qhciv9ptua.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437aadd8d505521284eac11",
@@ -282,7 +296,8 @@
     "special": true,
     "brand": "adidas",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369981/learn_nodejs/ke72cavjxdvaeoa1pk96.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681369981/learn_nodejs/ke72cavjxdvaeoa1pk96.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   },
   {
     "_id": "6437ab6a8d505521284eac14",
@@ -301,6 +316,7 @@
     "special": true,
     "brand": "adidas",
     "__v": 0,
-    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681370122/learn_nodejs/wu3zbptydkmnimuo7ynd.jpg"
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681370122/learn_nodejs/wu3zbptydkmnimuo7ynd.jpg",
+    "shopId": "6440c4fdc6cd952dbc57485c"
   }
 ]

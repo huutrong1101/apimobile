@@ -22,6 +22,11 @@ var schema = new mongoose.Schema({
   size: [String],
   color: [String],
   image: String,
+  shopId: {
+    type: Schema.Types.ObjectId,
+    ref: "user",
+    required: true,
+  },
 });
 
 module.exports = mongoose.model(databaseConfig.col_product, schema);

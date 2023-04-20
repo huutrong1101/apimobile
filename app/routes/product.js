@@ -40,7 +40,6 @@ router.get(
 router.post(
   "/add",
   protect,
-  authorize("publisher", "admin"),
   uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
     const fileData = req.file;
@@ -66,7 +65,6 @@ router.post(
 router.put(
   "/edit/:id",
   protect,
-  authorize("publisher", "admin"),
   uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
     const fileData = req.file;
@@ -99,7 +97,6 @@ router.put(
 router.delete(
   "/delete/:id",
   protect,
-  authorize("publisher", "admin"),
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.deleteItem(
       { id: req.params.id },

@@ -4,7 +4,7 @@ const notify = require(__path_configs + "notify");
 const options = {
   username: { min: 5, max: 80 },
   password: { min: 4, max: 20 },
-  enum: ["user", "publisher"],
+  enum: ["user", "shop"],
 };
 
 module.exports = {
