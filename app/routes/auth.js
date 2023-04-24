@@ -26,7 +26,10 @@ router.post(
   "/login",
   asyncHandler(async (req, res, next) => {
     const token = await MainModel.login(req.body, res);
-    console.log(token.user);
+    res.status(200).json({
+      success: true,
+      user: token.user,
+    });
   })
 );
 
