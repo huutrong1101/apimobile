@@ -14,7 +14,8 @@ module.exports = {
       res.status(401).json({ success: true, massage: result.err });
       return false;
     }
-    return await result.user.getSignedJwtToken();
+    // return await result.user.getSignedJwtToken();
+    return result;
   },
   forgotPassword: async (item) => {
     const user = await MainModel.findOne({ email: item.email });

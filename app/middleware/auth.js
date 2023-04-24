@@ -3,7 +3,6 @@ var jwt = require("jsonwebtoken");
 const systemConfig = require(__path_configs + "system");
 var ErrorResponse = require(__path_utils + "ErrorResponse");
 var UserModel = require(__path_models + "user");
-const createError = require("http-errors");
 
 exports.protect = asyncHandler(async (req, res, next) => {
   let token = "";
@@ -22,7 +21,6 @@ exports.protect = asyncHandler(async (req, res, next) => {
   try {
     // decode token
     const decoded = jwt.verify(token, systemConfig.JWT_SECRET);
-    console.log(decoded);
     req.user = await UserModel.listItems({ id: decoded.id }, { task: "one" });
     next();
   } catch (err) {
