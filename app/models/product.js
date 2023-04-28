@@ -38,7 +38,7 @@ module.exports = {
     }
 
     if (option.task == "all") {
-      return MainModel.find(find).select(select).sort(sort).limit(limit);
+      return MainModel.find(find).select(select).sort(sort);
     }
     if (option.task == "one") {
       return MainModel.findById(params.id).select({});
