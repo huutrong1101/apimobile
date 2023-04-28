@@ -37,17 +37,8 @@ module.exports = {
       sort = params.sort.split(",").join(" ");
     }
 
-    //pagination
-    const page = parseInt(params.page) || 1;
-    const limit = parseInt(params.limit) || 6;
-    const skip = (page - 1) * limit;
-
     if (option.task == "all") {
-      return MainModel.find(find)
-        .select(select)
-        .sort(sort)
-        .skip(skip)
-        .limit(limit);
+      return MainModel.find(find).select(select).sort(sort).limit(limit);
     }
     if (option.task == "one") {
       return MainModel.findById(params.id).select({});

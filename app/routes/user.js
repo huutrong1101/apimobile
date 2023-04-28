@@ -89,6 +89,23 @@ router.put(
   })
 );
 
+router.put(
+  "/uploadImage",
+  uploadCloud.single("image"),
+  asyncHandler(async (req, res, next) => {
+    const fileData = req.file;
+
+    const data = await MainModel.uploadImage({
+      id: req.body.id,
+      image: fileData.path,
+    });
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
+  })
+);
+
 router.delete(
   "/delete/:id",
   asyncHandler(async (req, res, next) => {

@@ -78,4 +78,13 @@ module.exports = {
       return userNew;
     }
   },
+
+  uploadImage: async (params, option) => {
+    const userNew = await MainModel.findByIdAndUpdate(
+      params.id,
+      { $set: { image: params.image } },
+      { new: true }
+    );
+    return userNew;
+  },
 };
