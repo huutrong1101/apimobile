@@ -15,9 +15,10 @@ router.post(
     let err = await validateReq(req, res, next);
     if (!err) {
       const token = await MainModel.create(req.body);
-      if (token) {
-        saveCookieResponse(res, 201, token);
-      }
+      res.status(200).json({
+        success: true,
+        user: token,
+      });
     }
   })
 );

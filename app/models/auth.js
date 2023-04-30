@@ -5,7 +5,7 @@ const crypto = require("crypto");
 module.exports = {
   create: async (item) => {
     const user = await new MainModel(item).save();
-    return await user.getSignedJwtToken();
+    return user;
   },
   login: async (item, res) => {
     const { email, password } = item;
