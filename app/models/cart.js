@@ -97,24 +97,25 @@ module.exports = {
   },
 
   updateItem: async (params) => {
-    console.log(params);
-    const cart = await MainModel.findById(params.userId);
-    const productIndex = cart.products.findIndex(
-      (product) => product.productId.toString() === params.pId
-    );
-    const product = cart.products[productIndex];
-    let newQuantity;
-    if (params.type === "increase") {
-      newQuantity = parseInt(product.quantity) + 1;
-    } else if (params.type === "decrease") {
-      newQuantity = parseInt(product.quantity) - 1;
+    const cart = await MainModel.findOne({ userId: params.userId });
+    if (cart) {
+      const productIndex = cart.products.findIndex(
+        (product) => product.productId.toString() === params.pId
+      );
+      const product = cart.products[productIndex];
+      let newQuantity;
+      if (params.type === "increase") {
+        newQuantity = parseInt(product.quantity) + 1;
+      } else if (params.type === "decrease") {
+        newQuantity = parseInt(product.quantity) - 1;
+      }
+      if (newQuantity <= 0) {
+        cart.products.splice(productIndex, 1);
+      } else {
+        cart.products[productIndex].quantity = newQuantity.toString();
+      }
+      await cart.save();
+      return cart;
     }
-    if (newQuantity <= 0) {
-      cart.products.splice(productIndex, 1);
-    } else {
-      cart.products[productIndex].quantity = newQuantity.toString();
-    }
-    await cart.save();
-    return cart;
   },
 };
