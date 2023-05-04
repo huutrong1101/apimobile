@@ -108,7 +108,10 @@ module.exports = {
         newQuantity = parseInt(product.quantity) + 1;
       } else if (params.type === "decrease") {
         newQuantity = parseInt(product.quantity) - 1;
+      } else if (params.type === "delete") {
+        newQuantity = 0;
       }
+
       if (newQuantity <= 0) {
         cart.products.splice(productIndex, 1);
       } else {
