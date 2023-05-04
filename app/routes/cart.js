@@ -36,7 +36,6 @@ router.get(
 
 router.post(
   "/add",
-  protect,
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.create(req.body);
     res.status(201).json({
@@ -48,7 +47,6 @@ router.post(
 
 router.put(
   "/edit/:type/:userId/:pId",
-  protect,
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.updateItem(req.params);
     res.status(200).json({
@@ -60,7 +58,6 @@ router.put(
 
 router.delete(
   "/delete/:userId",
-  protect,
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.deleteItem({ userId: req.params.userId });
     res.status(200).json({
