@@ -37,7 +37,6 @@ router.get(
 
 router.post(
   "/add",
-  protect,
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.create(req.body);
     res.status(201).json({
@@ -49,7 +48,6 @@ router.post(
 
 router.put(
   "/edit/:id",
-  protect,
   authorize("shop", "admin"),
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.updateItem({
@@ -66,7 +64,6 @@ router.put(
 
 router.delete(
   "/delete/:id",
-  protect,
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.deleteItem(
       { id: req.params.id },
