@@ -35,6 +35,19 @@ router.get(
   })
 );
 
+router.get(
+  "/item/:id",
+  asyncHandler(async (req, res, next) => {
+    const data = await MainModel.getItemDetail({ id: req.params.id });
+    if (!data)
+      return res.status(200).json({ success: true, data: "Dữ liệu rỗng" });
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
+  })
+);
+
 router.post(
   "/add",
   asyncHandler(async (req, res, next) => {

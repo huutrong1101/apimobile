@@ -62,7 +62,6 @@ router.delete(
     const data = await MainModel.deleteItem({ userId: req.params.userId });
     res.status(200).json({
       success: true,
-      data: data,
     });
   })
 );

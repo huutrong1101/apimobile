@@ -4,14 +4,12 @@ const databaseConfig = require(__path_configs + "database");
 const orderSchema = mongoose.Schema({
   orderItems: [
     {
+      productId: {
+        type: String,
+      },
       quantity: {
         type: Number,
-        required: true,
         default: 1,
-      },
-      product: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "products",
       },
     },
   ],
