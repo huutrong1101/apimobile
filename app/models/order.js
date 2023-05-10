@@ -59,6 +59,10 @@ module.exports = {
   getItem: (params) => {
     return MainModel.find({ user: params.id });
   },
+
+  getItemDetail: (params) => {
+    return MainModel.findOne({ _id: params.id });
+  },
   create: (item) => {
     return new MainModel(item).save();
   },
