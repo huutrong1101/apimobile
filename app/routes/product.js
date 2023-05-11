@@ -52,7 +52,7 @@ router.post(
     } else if (!err) {
       const data = await MainModel.create({
         ...req.body,
-        image: fileData.path,
+        image: fileData?.path,
       });
       res.status(201).json({
         success: true,
