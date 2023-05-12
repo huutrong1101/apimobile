@@ -96,22 +96,22 @@ router.delete(
   })
 );
 
-router.put(
-  "/event/:type/:id",
-  asyncHandler(async (req, res, next) => {
-    const data = await MainModel.event({
-      id: req.params.id,
-      type: req.params.type,
-    });
-    if (!data)
-      return res
-        .status(200)
-        .json({ success: true, data: "Sai trạng thái cập nhật" });
-    res.status(200).json({
-      success: true,
-      data: data,
-    });
-  })
+// router.put(
+//   "/event/:type/:id",
+//   asyncHandler(async (req, res, next) => {
+//     const data = await MainModel.event({
+//       id: req.params.id,
+//       type: req.params.type,
+//     });
+//     if (!data)
+//       return res
+//         .status(200)
+//         .json({ success: true, data: "Sai trạng thái cập nhật" });
+//     res.status(200).json({
+//       success: true,
+//       data: data,
+//     });
+//   })
 );
 
 module.exports = router;
