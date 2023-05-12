@@ -55,30 +55,18 @@ router.post(
 
 router.put(
   "/edit/:id",
-  uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
-    const fileData = req.file;
-
-    if (err) {
-      if (fileData) {
-        cloudinary.uploader.destroy(fileData.filename);
-      }
-    } else if (!err) {
-      const data = await MainModel.editItem(
-        {
-          id: req.params.id,
-          body: {
-            ...req.body,
-            image: fileData.path,
-          },
-        },
-        { task: "edit" }
-      );
-      res.status(200).json({
-        success: true,
-        data: data,
-      });
-    }
+    const data = await MainModel.editItem(
+      {
+        id: req.params.id,
+        body: req.body,
+      },
+      { task: "edit" }
+    );
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
   })
 );
 
