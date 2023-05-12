@@ -79,4 +79,14 @@ module.exports = {
       { new: true }
     );
   },
+
+  uploadImage: async (params, option) => {
+    const productNew = await MainModel.findByIdAndUpdate(
+      params.id,
+      { $set: { image: params.image } },
+      { new: true }
+    );
+
+    return productNew;
+  },
 };
