@@ -61,7 +61,6 @@ router.post(
 
 router.put(
   "/edit/:id",
-  authorize("shop", "admin"),
   asyncHandler(async (req, res, next) => {
     const data = await MainModel.updateItem({
       id: req.params.id,
