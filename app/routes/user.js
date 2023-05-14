@@ -63,7 +63,6 @@ router.put(
   "/edit/:id",
   uploadCloud.single("image"),
   asyncHandler(async (req, res, next) => {
-
     let err = await validateReq(req, res, next);
     if (!err) {
       const data = await MainModel.editItem(
@@ -98,19 +97,19 @@ router.put(
   })
 );
 
-router.delete(
-  "/delete/:id",
-  asyncHandler(async (req, res, next) => {
-    const data = await MainModel.deleteItem(
-      { id: req.params.id },
-      { task: "one" }
-    );
-    res.status(200).json({
-      success: true,
-      data: data,
-    });
-  })
-);
+// router.delete(
+//   "/delete/:id",
+//   asyncHandler(async (req, res, next) => {
+//     const data = await MainModel.deleteItem(
+//       { id: req.params.id },
+//       { task: "one" }
+//     );
+//     res.status(200).json({
+//       success: true,
+//       data: data,
+//     });
+//   })
+// );
 
 module.exports = router;
 
