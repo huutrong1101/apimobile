@@ -97,19 +97,19 @@ router.put(
   })
 );
 
-// router.delete(
-//   "/delete/:id",
-//   asyncHandler(async (req, res, next) => {
-//     const data = await MainModel.deleteItem(
-//       { id: req.params.id },
-//       { task: "one" }
-//     );
-//     res.status(200).json({
-//       success: true,
-//       data: data,
-//     });
-//   })
-// );
+router.delete(
+  "/delete/:id",
+  asyncHandler(async (req, res, next) => {
+    const data = await MainModel.deleteItem(
+      { id: req.params.id },
+      { task: "one" }
+    );
+    res.status(200).json({
+      success: true,
+      data: data,
+    });
+  })
+);
 
 module.exports = router;
 
