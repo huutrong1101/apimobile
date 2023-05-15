@@ -42,18 +42,10 @@ module.exports = {
       sort = params.sort.split(",").join(" ");
     }
 
-    //pagination
-    const page = parseInt(params.page) || 1;
-    const limit = parseInt(params.limit) || 6;
-    const skip = (page - 1) * limit;
-
     if (option.task == "all") {
       return MainModel.find(find)
-        .populate({ path: "product", select: "name" })
         .select(select)
-        .sort(sort)
-        .skip(skip)
-        .limit(limit);
+        .sort(sort);
     }
   },
   getItem: (params) => {
