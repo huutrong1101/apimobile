@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "5d7a514b5d2c12c7449be223",
+    "username": "Admin",
+    "email": "admin@gmail.com",
+    "role": "admin",
+    "password": "$2a$10$C.lyNh0DLc3QZBtL7dg2i.kaiqyP3LHBqso/fK7bZgGQhlrokwLTK",
+    "__v": 0
+  },
+  {
+    "_id": "64379a449137f91a801575b2",
+    "username": "huutrong",
+    "email": "huutrong@gmail.com",
+    "role": "user",
+    "password": "$2a$10$p4IgoIpE8o7PvlofBFXsLOViNGG9EOB2BO.uKLpAQuqsw5ALE7.Gq",
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681365733/learn_nodejs/rvxo7nwvvqddvysa0jyg.png",
+    "__v": 0
+  },
+  {
+    "_id": "6440c328b035410d141f3eab",
+    "username": "shop1",
+    "email": "shop1@gmail.com",
+    "role": "shop",
+    "password": "$2a$10$/XkpyhFBc2RnL5yINJ0.a.IMp808HtbMl0KgOat1V7l6OxOY5JGNG",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681966028/learn_nodejs/i5cbtrzbsx1y9bgiwg1g.jpg"
+  },
+  {
+    "_id": "6440c4fdc6cd952dbc57485c",
+    "username": "shop2",
+    "email": "shop2@gmail.com",
+    "role": "shop",
+    "password": "$2a$10$2j7qtjhDcW2TFOJd5oOx0u/vWrujxltStUkUHmwTwTltKUtOIG9e6",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681966497/learn_nodejs/obr60xblotyp7diwl1yc.jpg"
+  }
+]

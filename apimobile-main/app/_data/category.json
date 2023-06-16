@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "64379e3b8d505521284eabd7",
+    "name": "Giày Adidas",
+    "title": "Giày Adidas",
+    "slug": "adidas",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681366748/learn_nodejs/tggb8mkyqsqysjd1ksmv.png"
+  },
+  {
+    "_id": "64379e7a8d505521284eabda",
+    "name": "Giày Nike",
+    "title": "Giày Nike",
+    "slug": "Nike",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681366810/learn_nodejs/o14lnxdx0cwsmwnt9daa.jpg"
+  },
+  {
+    "_id": "64379e908d505521284eabdd",
+    "name": "Giày Bitis",
+    "title": "Giày Bitis",
+    "slug": "Bitis",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681366832/learn_nodejs/umfjihbqzaru4jqzjwxg.jpg"
+  },
+  {
+    "_id": "64379ead8d505521284eabe0",
+    "name": "Giày Converse",
+    "title": "Giày Converse",
+    "slug": "Converse",
+    "__v": 0,
+    "image": "https://res.cloudinary.com/dxkosumln/image/upload/v1681366861/learn_nodejs/w9npiezz2tqmvi8qdx43.jpg"
+  }
+]
